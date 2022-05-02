@@ -1,3 +1,4 @@
+//Class Components have access to features like state and lifecycle methods that Function Components do not. If you need any of those, Class Components are the way to go, otherwise, stick with Function Components and convert them later if the need arises.
 
 class PomodoroControl extends React.Component {
   render() { 
